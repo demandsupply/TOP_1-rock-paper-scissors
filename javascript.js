@@ -10,3 +10,10 @@ function getComputerChoice() {
 }
 
 console.log(getComputerChoice());
+
+function getHumanChoice() {
+    let promptHuman = prompt("Rock, paper or scissor? ")
+    return promptHuman;
+}
+
+console.log(getHumanChoice());
